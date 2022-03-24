@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/category1" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="veille"
+            android:title="@string/sleepTitle"
+            android:summary="@string/sleepSum"/>
+        <ListPreference
+            android:defaultValue="20"
+            android:entries="@array/updateInterval"
+            android:entryValues="@array/updateIntervalValues"
+            android:key="veille_intervale"
+            android:title="@string/sleepDurationTitle"
+            android:dependency="veille"
+            android:summary="@string/sleepDurationSum"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/category2">
+        <EditTextPreference
+            android:defaultValue=""
+            android:key="full_name"
+            android:selectAllOnFocus="false"
+            android:singleLine="true"
+            android:title="@string/nameTitle"
+            android:dialogTitle="@string/dialogtitlename"
+            android:dialogMessage="@string/dialogtitlename"
+            android:summary="@string/nameSum"
+            android:inputType="textCapWords"/>
+        <EditTextPreference
+            android:defaultValue=""
+            android:key="email_address"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/emailTitle"
+            android:dialogTitle="@string/dialogtitleemail"
+            android:dialogMessage="@string/dialogtitleemail"
+            android:summary="@string/emailSum"
+            android:inputType="textEmailAddress"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/category3">
+
+        <SwitchPreference
+            android:key="themeMode"
+            android:title="@string/modeTitle"
+            android:summary="@string/modeSum"
+            android:defaultValue="true">
+        </SwitchPreference>
+
+        <ListPreference
+            android:key="language"
+            android:title="@string/languageTitle"
+            android:summary="@string/languageSum"
+            android:entries="@array/Language"
+            android:entryValues="@array/languageValues"/>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PreferencesScreenSettings</string>
+
+    <string name="welcome">Paramètres de votre app</string>
+
+    <string name="languageSum">changer langue</string>
+    <string name="modeSum">activer dark mode</string>
+    <string name="emailSum">entrer email institutionnel</string>
+    <string name="dialogtitleemail">entrer adresse email</string>
+    <string name="nameSum">entrer nom</string>
+    <string name="dialogtitlename">entrer votre nom</string>
+    <string name="sleepSum">mode en veille</string>
+    <string name="sleepDurationSum">choisir intervalle de mise en veille</string>
+
+
+    <string name="languageTitle">langue</string>
+    <string name="modeTitle">mode affichage</string>
+    <string name="emailTitle">adresse email </string>
+    <string name="nameTitle">nom</string>
+    <string name="sleepTitle">mise en veille</string>
+    <string name="sleepDurationTitle">intervalle mise en veille</string>
+
+    <string name="category1">Informations de la mise en veille</string>
+    <string name="category2">Information personnelle</string>
+    <string name="category3">Affichage</string>
+</resources>

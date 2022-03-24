@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">PreferencesScreenSettings</string>
+    <string name="welcome">Your app settings</string>
+
+    <string name="languageSum">change language</string>
+    <string name="modeSum">activate dark mode</string>
+    <string name="emailSum">enter institutional email address</string>
+    <string name="dialogtitleemail">enter email address</string>
+    <string name="nameSum">enter your name</string>
+    <string name="dialogtitlename">enter name here</string>
+    <string name="sleepSum">Put phone to sleep mode</string>
+    <string name="sleepDurationSum">choose duration before sleep mode</string>
+
+
+    <string name="languageTitle">language</string>
+    <string name="modeTitle">screen mode</string>
+    <string name="emailTitle">email address</string>
+    <string name="nameTitle">name</string>
+    <string name="sleepTitle">sleep mode</string>
+    <string name="sleepDurationTitle">duration sleep mode</string>
+
+    <string name="category1">Informations on sleep mode</string>
+    <string name="category2">Personal informations</string>
+    <string name="category3">Displays</string>
+
+</resources>
